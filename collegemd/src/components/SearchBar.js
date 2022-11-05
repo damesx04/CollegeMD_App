@@ -1,6 +1,5 @@
 import React from 'react';
 import './SearchBar.css';
-import SearchIcon from '@mui/icons-material/Search';
 
 function SearchBar({placeholder, data}) {
   return (
@@ -10,10 +9,15 @@ function SearchBar({placeholder, data}) {
             <div className='searchIcon'></div>
         </div>
         <div className='dataResult'>
-            {data}
+            {data.map((value, key) => {
+                return (
+                    <div className='dataItem'> {value.symptom}</div>
+                );
+            })}
         </div>
     </div>
   );
 }
+
 
 export default SearchBar;

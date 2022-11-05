@@ -4,59 +4,47 @@
         "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue, "]
     },
     {
-        "name": "covid",
+        "name": "covid", 
         "symptoms": ["fever, ", "cough, ", "sore throat, ", "nausea, ", "vomiting, ", "fatigue, ", "muscle aches, ", "loss of taste/smell, ", "runny nose, ", "shortness of breath, "]
     },
-    {
+    {   
         "name": "cold",
-        "symptoms": []
+        "symptoms": ["fever, ", "sneezing, ", "cough, ", "sore throat, ", "watery eyes, ", "runny nose, "]
     },
     {
-        "name": "pinkeye",
-        "symptoms": []
+        "name": "pinkEye",
+        "symptoms": ["visible inflamation, ", "discharge, ", "itching, "]
     },
     {
         "name": "mononucleosis",
-        "symptoms": []
+        "symptoms": ["fatigue, ", "sore throat, ", "fever, ", "swollen lymph nodes, ", "skin rash, ", "headache, "]
     },
     {
         "name": "stomachBug",
-        "symptoms": []
+        "symptoms": ["diarrhea, ", "nausea, ", "vomiting, ", "fever, ", "stomach cramps and pain, "]
     },
     {
         "name": "strepThroat",
-        "symptoms": []
-    },
-    {
-        "name": "herpes",
-        "symptoms": []
-    },
-    {
-        "name": "chlamydia",
-        "symptoms": []
-    },
-    {
-        "name": "hivAids",
-        "symptoms": []
-    },
-    {
-        "name": "gonorrhead",
-        "symptoms": []
-    },
-    {
-        "name": "syphilis",
-        "symptoms": []
+        "symptoms": ["pain swallowing, ", "swollen lymph nodes, ", "sore throat, ", "fever, "]
     },
     {
         "name": "uti",
-        "symptoms": []
+        "symptoms": ["bloody urine, ", "frequent urination, ", "pain urinating, "]
     },
     {
         "name": "foodPoisoning",
-        "symptoms": []
+        "symptoms": ["stomach cramps and pain, ", "fever, ", "nausea, ", "vomiting, ", "diarrhea, "]
     },
     {
         "name": "sinusInfection",
+        "symptoms": ["runny nose, ", "sinus pressure, ", "headache, ", "sore throat, ", "congestion, "]
+    },
+    {
+        "name": "allergies",
+        "symptoms": ["sneezing, ", "runny nose, ", "rashes, ", "watery eyes, "]
+    },
+    {
+        "name": "gonorrhea",
         "symptoms": []
     }
-]
+    ]
