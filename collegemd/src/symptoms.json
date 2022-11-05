@@ -1,0 +1,62 @@
+[
+    {
+        "name": "flu",
+        "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue"]
+    },
+    {
+        "name": "covid",
+        "symptoms": ["fever", "cough", "sore throat", "nausea", "vomiting", "fatigue", "muscle aches", "loss of taste/smell", "runny nose", "shortness of breath"]
+    },
+    {
+        "name": "cold",
+        "symptoms": []
+    },
+    {
+        "name": "pinkeye",
+        "symptoms": []
+    },
+    {
+        "name": "mononucleosis",
+        "symptoms": []
+    },
+    {
+        "name": "stomachBug",
+        "symptoms": []
+    },
+    {
+        "name": "strepThroat",
+        "symptoms": []
+    },
+    {
+        "name": "herpes",
+        "symptoms": []
+    },
+    {
+        "name": "chlamydia",
+        "symptoms": []
+    },
+    {
+        "name": "hivAids",
+        "symptoms": []
+    },
+    {
+        "name": "gonorrhead",
+        "symptoms": []
+    },
+    {
+        "name": "syphilis",
+        "symptoms": []
+    },
+    {
+        "name": "uti",
+        "symptoms": []
+    },
+    {
+        "name": "foodPoisoning",
+        "symptoms": []
+    },
+    {
+        "name": "sinusInfection",
+        "symptoms": []
+    }
+]
