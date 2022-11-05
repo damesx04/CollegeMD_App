@@ -3,17 +3,20 @@ import './App.css';
 import SearchBar from './components/SearchBar.js';
 import SymptomData from './symptoms.json';
 
-let noRepeatSymptoms = new Set(SymptomData.symptoms);
+let noRepeatSymptoms = new Set();
+
+for (let i = 0; i < SymptomData.length; i++) {
+  for (let j = 0; j < SymptomData[i].symptoms.length; j++) {
+    noRepeatSymptoms.add(SymptomData[i].symptoms[j]);
+  }
+}
 
 function App() {
   return (
     <div className="App">
-    <SearchBar placeholder="Enter a symptom" data={SymptomData} />
+    <SearchBar placeholder="Enter a symptom" data={noRepeatSymptoms} />
     </div>
   );
 }
 
-console.log(noRepeatSymptoms);
-console.log(0);
-console.log(SymptomData);
 export default App;

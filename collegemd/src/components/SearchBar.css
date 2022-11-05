@@ -19,6 +19,7 @@
     height: 60px;
     width: 50px;
     background-color: white;
+    background-image: url('@mui/icons-material/Search');
     display: grid;
     place-items: center;
 }

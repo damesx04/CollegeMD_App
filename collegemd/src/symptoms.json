@@ -1,11 +1,11 @@
 [
     {
         "name": "flu",
-        "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue"]
+        "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue, "]
     },
     {
         "name": "covid",
-        "symptoms": ["fever", "cough", "sore throat", "nausea", "vomiting", "fatigue", "muscle aches", "loss of taste/smell", "runny nose", "shortness of breath"]
+        "symptoms": ["fever, ", "cough, ", "sore throat, ", "nausea, ", "vomiting, ", "fatigue, ", "muscle aches, ", "loss of taste/smell, ", "runny nose, ", "shortness of breath, "]
     },
     {
         "name": "cold",
