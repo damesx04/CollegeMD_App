@@ -68,3 +68,11 @@
   #clearBtn {
     cursor: pointer;
   }
+  
+  .symptom-list {
+    font-size: 30px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    color: white;
+    display: grid;
+  }

@@ -1,50 +1,57 @@
 [
     {
-        "name": "flu",
-        "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue, "]
+        "name": "Flu",
+        "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue "],
+        "link": "https://www.cdc.gov/flu/treatment/takingcare.htm#:~:text=What%20should%20I%20do%20if,except%20to%20get%20medical%20care."
     },
     {
-        "name": "covid", 
-        "symptoms": ["fever, ", "cough, ", "sore throat, ", "nausea, ", "vomiting, ", "fatigue, ", "muscle aches, ", "loss of taste/smell, ", "runny nose, ", "shortness of breath, "]
+        "name": "Covid", 
+        "symptoms": ["fever, ", "cough, ", "sore throat, ", "nausea, ", "vomiting, ", "fatigue, ", "muscle aches, ", "loss of taste/smell, ", "runny nose, ", "shortness of breath "],
+        "link": "https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html"
     },
     {   
-        "name": "cold",
-        "symptoms": ["fever, ", "sneezing, ", "cough, ", "sore throat, ", "watery eyes, ", "runny nose, "]
+        "name": "Cold",
+        "symptoms": ["fever, ", "sneezing, ", "cough, ", "sore throat, ", "watery eyes, ", "runny nose "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/common-cold/diagnosis-treatment/drc-20351611"
     },
     {
-        "name": "pinkEye",
-        "symptoms": ["visible inflamation, ", "discharge, ", "itching, "]
+        "name": "Pink Eye",
+        "symptoms": ["visible inflamation, ", "discharge, ", "itching "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/pink-eye/diagnosis-treatment/drc-20376360#:~:text=Pink%20eye%20treatment%20is%20usually,them%20until%20treatment%20is%20complete."
     },
     {
-        "name": "mononucleosis",
-        "symptoms": ["fatigue, ", "sore throat, ", "fever, ", "swollen lymph nodes, ", "skin rash, ", "headache, "]
+        "name": "Mononucleosis",
+        "symptoms": ["fatigue, ", "sore throat, ", "fever, ", "swollen lymph nodes, ", "skin rash, ", "headache "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/diagnosis-treatment/drc-20350333#:~:text=There's%20no%20specific%20therapy%20available,and%20drinking%20plenty%20of%20fluids."
     },
     {
-        "name": "stomachBug",
-        "symptoms": ["diarrhea, ", "nausea, ", "vomiting, ", "fever, ", "stomach cramps and pain, "]
+        "name": "Stomach Bug",
+        "symptoms": ["diarrhea, ", "nausea, ", "vomiting, ", "fever, ", "stomach cramps and pain "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/viral-gastroenteritis/diagnosis-treatment/drc-20378852"
     },
     {
-        "name": "strepThroat",
-        "symptoms": ["pain swallowing, ", "swollen lymph nodes, ", "sore throat, ", "fever, "]
+        "name": "Strep Throat",
+        "symptoms": ["pain swallowing, ", "swollen lymph nodes, ", "sore throat, ", "fever "],
+        "link": "https://www.cdc.gov/dotw/strepthroat/index.html#:~:text=Stay%20Home-,People%20with%20strep%20throat%20should%20stay%20home%20from%20work%2C%20school,spreading%20the%20bacteria%20to%20others.&text=Wash%20your%20hands%20often%20to,strep%20throat%20and%20other%20infections."
     },
     {
-        "name": "uti",
-        "symptoms": ["bloody urine, ", "frequent urination, ", "pain urinating, "]
+        "name": "UTI",
+        "symptoms": ["bloody urine, ", "frequent urination, ", "pain urinating "],
+        "link": "https://www.webmd.com/women/guide/your-guide-urinary-tract-infections"
     },
     {
-        "name": "foodPoisoning",
-        "symptoms": ["stomach cramps and pain, ", "fever, ", "nausea, ", "vomiting, ", "diarrhea, "]
+        "name": "Food Poisoning",
+        "symptoms": ["stomach cramps and pain, ", "fever, ", "nausea, ", "vomiting, ", "diarrhea "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/food-poisoning/diagnosis-treatment/drc-20356236"
     },
     {
-        "name": "sinusInfection",
-        "symptoms": ["runny nose, ", "sinus pressure, ", "headache, ", "sore throat, ", "congestion, "]
+        "name": "Sinus Infection",
+        "symptoms": ["runny nose, ", "sinus pressure, ", "headache, ", "sore throat, ", "congestion "],
+        "link": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
     },
     {
-        "name": "allergies",
-        "symptoms": ["sneezing, ", "runny nose, ", "rashes, ", "watery eyes, "]
-    },
-    {
-        "name": "gonorrhea",
-        "symptoms": []
+        "name": "Allergies",
+        "symptoms": ["sneezing, ", "runny nose, ", "rashes, ", "watery eyes "],
+        "link": "https://www.mayoclinic.org/diseases-conditions/hay-fever/in-depth/seasonal-allergies/art-20048343"
     }
     ]

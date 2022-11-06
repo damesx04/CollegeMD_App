@@ -1,9 +1,13 @@
 import React from 'react'
 import './Symptoms.css';
-import filteredData from './SearchBar';
 
-export default function Symptoms() {
+let list = [];
+export default function Symptoms({symptoms}) {
+  
+  list = list.concat(symptoms);
   return (
-    <div className='Header'>Symptoms: {filteredData}</div>
+    <div className='Header'>Symptoms:
+    <div>{list}</div>
+    </div>
   )
 }

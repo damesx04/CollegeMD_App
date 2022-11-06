@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
+import Symptoms from "./Symptoms";
 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
+  const [chosenSymptom, setChosenSymptom] = useState("");
+  const [symptomList, setSymptomList] = useState([]);
+  // let list = [];
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -25,14 +29,16 @@ function SearchBar({ placeholder, data }) {
     setWordEntered("");
   };
 
-  const chosen = () => {
-    console.log("FFF", filteredData);
-    for (let i = 0; i < filteredData.length; i++) {
-    console.log(filteredData[i].symptom);
-    }
-  };
+  const clicked = (value) => {
+    setChosenSymptom(value);
+    symptomList.push(value);
+  }
 
   return (
+    <div>
+    <div className="symptom-list">Symptoms: {symptomList.map(symptom => (
+      <div>{symptom}</div>
+    ))} </div>
     <div className="search">
       <div className="searchInputs">
         <input
@@ -50,14 +56,16 @@ function SearchBar({ placeholder, data }) {
             </div>
           )}
         </div>
+        {/* <Symptoms symptoms={chosenSymptom}/> */}
       </div>
-      {filteredData.length != 0 && (
-        <div className="dataResult" onClick={chosen}>
+      {filteredData.length !== 0 && (
+        <div className="dataResult">
           {filteredData.map((value, key) => {
-            return <div className="dataItem"> {value.symptom}</div>;
+            return <div className="dataItem" onClick={() => clicked(value.symptom)}> {value.symptom}</div>;
           })}
         </div>
       )}
+    </div>
     </div>
   );
 }
