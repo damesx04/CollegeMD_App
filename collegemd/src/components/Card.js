@@ -1,7 +1,11 @@
-function Card() {
+import React from 'react'
+
+const Card = ({ flashcard }) => {
     return (
-        <h1>HELLO!</h1>
-    );
+        <div>
+            {flashcard.name}
+        </div>
+    )
 }
 
-export default Card;
+export default Card
