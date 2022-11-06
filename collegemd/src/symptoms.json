@@ -62,21 +62,13 @@
     {
         "name": "Allergies",
         "symptoms": ["sneezing, ", "runny nose, ", "rashes, ", "watery eyes "],
-<<<<<<< HEAD
         "link": "https://www.mayoclinic.org/diseases-conditions/hay-fever/in-depth/seasonal-allergies/art-20048343",
         "display": true
-=======
-        "link": "https://www.mayoclinic.org/diseases-conditions/hay-fever/in-depth/seasonal-allergies/art-20048343"
->>>>>>> 3adbf85481c073dad43ca96046dc37cdeb5409fa
     },
     {
         "name": "Upper Respiratory Infection",
         "symptoms": ["sneezing, ", "cough, ", "runny nose, ", "headache, ", "sore throat, ",  "shortness of breath "],
-<<<<<<< HEAD
         "link": "https://my.clevelandclinic.org/health/articles/4022-upper-respiratory-infection",
         "display": true
-=======
-        "link": "https://my.clevelandclinic.org/health/articles/4022-upper-respiratory-infection"
->>>>>>> 3adbf85481c073dad43ca96046dc37cdeb5409fa
     }
     ]

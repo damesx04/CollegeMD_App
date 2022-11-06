@@ -7,13 +7,9 @@ import Symptoms from "./components/Symptoms.js";
 import Card from "./components/Card.js";
 import CardList from "./components/CardList.js";
 import tempSymptoms from './tempSymptoms.json';
-<<<<<<< HEAD
 import { Chart } from "react-google-charts";
 import PieChart from "./components/Piechart";
-=======
-import PieChart from './components/PieChart.js';
 
->>>>>>> 3adbf85481c073dad43ca96046dc37cdeb5409fa
 
 let noRepeatSymptoms = new Set();
 
