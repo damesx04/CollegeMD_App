@@ -4,7 +4,6 @@ import "./SearchBar.css";
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
-  const [symptomChosen, setSymptomChosen] = useState("")
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -12,6 +11,7 @@ function SearchBar({ placeholder, data }) {
     const newFilter = data.filter((value) => {
       return value.symptom.toLowerCase().includes(searchWord.toLowerCase());
     });
+
 
     if (searchWord === "") {
       setFilteredData([]);
@@ -26,11 +26,13 @@ function SearchBar({ placeholder, data }) {
   };
 
   const chosen = () => {
-    setSymptomChosen(filteredData);
+    console.log("FFF", filteredData);
+    for (let i = 0; i < filteredData.length; i++) {
+    console.log(filteredData[i].symptom);
+    }
   };
 
   return (
-    <div className="symptoms" value={filteredData}>
     <div className="search">
       <div className="searchInputs">
         <input
@@ -56,7 +58,6 @@ function SearchBar({ placeholder, data }) {
           })}
         </div>
       )}
-    </div>
     </div>
   );
 }
