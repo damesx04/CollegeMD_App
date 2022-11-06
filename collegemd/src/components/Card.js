@@ -16,6 +16,7 @@ const Card = ({ flashcard }) => {
     const dbRef = ref(getDatabase());
     return (
         <div className='card' onClick={() => setFront(!front)}>
+        <div className='card-inner'>
         {front ? (
         <div className='front' >{flashcard.name}</div>) : 
         (<div className='back'>
@@ -23,7 +24,7 @@ const Card = ({ flashcard }) => {
             <div className='symptoms-symptoms'>{flashcard.symptoms}</div>
             <a className='link' href={flashcard.link} target="_blank" onClick={() => updateUserData(flashcard.name, get(child(dbRef, `Sicknesses/${flashcard.name}`)).then((snapshot) => Number(snapshot.val())))}>Link for more info</a>
         </div>)}
-            
+        </div>   
         </div>
     )
 }

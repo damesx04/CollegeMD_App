@@ -10,18 +10,23 @@
     place-content: center;
     text-align: center;
     background-color: rgba(123, 134, 234, 0.599);
+<<<<<<< HEAD
     color: white;
+=======
+    color: white;   
+>>>>>>> 3adbf85481c073dad43ca96046dc37cdeb5409fa
 }
 
 .front {
-    font-size: 50px;
-    text-decoration: underline;
+    font-size: 3.8vw;
+    /* text-decoration: underline; */
 }
 
 .back {
-    font-size: 30px;
+    font-size: 2vw;
     flex-wrap: wrap;
     overflow-wrap: break-word;
+    /* transform: rotateY(180deg); */
 }
 .symptoms-title {
     text-decoration: underline;

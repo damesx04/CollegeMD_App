@@ -7,8 +7,13 @@ import Symptoms from "./components/Symptoms.js";
 import Card from "./components/Card.js";
 import CardList from "./components/CardList.js";
 import tempSymptoms from './tempSymptoms.json';
+<<<<<<< HEAD
 import { Chart } from "react-google-charts";
 import PieChart from "./components/Piechart";
+=======
+import PieChart from './components/PieChart.js';
+
+>>>>>>> 3adbf85481c073dad43ca96046dc37cdeb5409fa
 
 let noRepeatSymptoms = new Set();
 
@@ -20,6 +25,7 @@ for (let i = 0; i < SymptomData.length; i++) {
 
 function App() {
   const [cards, setCards] = useState(data);
+
 
   return (
     <div className="container">
@@ -35,11 +41,15 @@ function App() {
         <CardList className="cards" flashcards={data} />
         <PieChart/>
       </div>
+      {/* <PieChart /> */}
     </div>
   );
 }
 
 const data = SymptomData
-
+// const fs = require('fs');
+// fs.writeFile('/tempSymptoms.json', JSON.stringify(data), err => {
+//   if (err) console.log("error writing file:", err); else console.log("success");
+// })
 
 export default App
