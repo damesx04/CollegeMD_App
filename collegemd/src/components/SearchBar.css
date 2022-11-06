@@ -1,5 +1,5 @@
 .searchInputs {
-    margin-top: 55px;
+    margin-top: 30px;
     display: flex;
   }
   
@@ -19,7 +19,6 @@
     height: 60px;
     width: 50px;
     background-color: white;
-    /*background-image: url(collegemd/src/components/Icons/SearchIcon.webp);*/
     display: grid;
     place-items: center;
   }
@@ -74,5 +73,7 @@
     flex-wrap: wrap;
     overflow-wrap: break-word;
     color: white;
-    display: grid;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }

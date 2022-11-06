@@ -7,7 +7,6 @@ function SearchBar({ placeholder, data }) {
   const [wordEntered, setWordEntered] = useState("");
   const [chosenSymptom, setChosenSymptom] = useState("");
   const [symptomList, setSymptomList] = useState([]);
-  // let list = [];
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -36,8 +35,8 @@ function SearchBar({ placeholder, data }) {
 
   return (
     <div>
-    <div className="symptom-list">Symptoms: {symptomList.map(symptom => (
-      <div>{symptom}</div>
+    <div className="symptom-list">Symptoms: &nbsp;{symptomList.map(symptom => (
+      <div>{symptom},&nbsp;</div>
     ))} </div>
     <div className="search">
       <div className="searchInputs">
@@ -56,7 +55,6 @@ function SearchBar({ placeholder, data }) {
             </div>
           )}
         </div>
-        {/* <Symptoms symptoms={chosenSymptom}/> */}
       </div>
       {filteredData.length !== 0 && (
         <div className="dataResult">
