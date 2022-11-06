@@ -1,6 +1,24 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
 import Symptoms from "./Symptoms";
+import "../App.js"
+import SymptomData from "../symptoms.json";
+import { getDatabase, ref, set, get } from 'firebase/database'
+
+async function updateUserBoolean(ill, symptom, data) {
+  const db = getDatabase();
+  let truth = false
+  for (let i = 0; i < data.length; i++) {
+    if ((symptom + ", ") === data[i])
+    {
+      truth = true
+    }
+  }
+    
+  set(ref(db, 'status/' + ill), {
+      display: truth
+    }
+  )};
 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
@@ -31,6 +49,13 @@ function SearchBar({ placeholder, data }) {
   const clicked = (value) => {
     setChosenSymptom(value);
     symptomList.push(value);
+    for(let i = 0; i < SymptomData.length; i++)
+    {
+      for(let j = 0; j < SymptomData[i]["symptoms"].length; j++)
+      {
+        updateUserBoolean(SymptomData[j].name, value, SymptomData[j]["symptoms"])
+      }
+    }
   }
 
   return (

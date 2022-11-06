@@ -7,6 +7,8 @@ import Symptoms from "./components/Symptoms.js";
 import Card from "./components/Card.js";
 import CardList from "./components/CardList.js";
 import tempSymptoms from './tempSymptoms.json';
+import { Chart } from "react-google-charts";
+import PieChart from "./components/Piechart";
 
 let noRepeatSymptoms = new Set();
 
@@ -31,6 +33,7 @@ function App() {
       </div>
       <div className="lower">
         <CardList className="cards" flashcards={data} />
+        <PieChart/>
       </div>
     </div>
   );

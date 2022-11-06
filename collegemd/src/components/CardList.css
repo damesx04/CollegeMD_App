@@ -2,6 +2,6 @@
     display: grid;
     justify-content: space-evenly;
     place-items: center;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 20vw 20vw 20vw 20vw 20vw 20vw;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
 }

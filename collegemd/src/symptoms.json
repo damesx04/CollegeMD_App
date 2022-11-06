@@ -2,56 +2,73 @@
     {
         "name": "Flu",
         "symptoms": ["fever, ", "cough, ", "sore throat, ", "sinus pressure, ", "muscle aches, ", "headache, ", "fatigue "],
-        "link": "https://www.cdc.gov/flu/treatment/takingcare.htm#:~:text=What%20should%20I%20do%20if,except%20to%20get%20medical%20care."
+        "link": "https://www.cdc.gov/flu/treatment/takingcare.htm#:~:text=What%20should%20I%20do%20if,except%20to%20get%20medical%20care.",
+        "display": true
     },
     {
         "name": "Covid", 
         "symptoms": ["fever, ", "cough, ", "sore throat, ", "nausea, ", "vomiting, ", "fatigue, ", "muscle aches, ", "loss of taste/smell, ", "runny nose, ", "shortness of breath "],
-        "link": "https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html"
+        "link": "https://www.covid.gov/#:~:text=COVID.gov%20%2D%20Find%20COVID%2D19%20guidance%20for%20your%20community&text=A%20.gov%20website%20belongs%20to,organization%20in%20the%20United%20States.&text=A%20lock%20(%20A%20locked%20padlock,connected%20to%20the%20.gov%20website.",
+        "display": true
     },
-    {   
+    {
         "name": "Cold",
         "symptoms": ["fever, ", "sneezing, ", "cough, ", "sore throat, ", "watery eyes, ", "runny nose "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/common-cold/diagnosis-treatment/drc-20351611"
+        "link": "https://www.mayoclinic.org/diseases-conditions/common-cold/diagnosis-treatment/drc-20351611",
+        "display": true
     },
     {
         "name": "Pink Eye",
         "symptoms": ["visible inflamation, ", "discharge, ", "itching "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/pink-eye/diagnosis-treatment/drc-20376360#:~:text=Pink%20eye%20treatment%20is%20usually,them%20until%20treatment%20is%20complete."
+        "link": "https://www.mayoclinic.org/diseases-conditions/pink-eye/diagnosis-treatment/drc-20376360#:~:text=Pink%20eye%20treatment%20is%20usually,them%20until%20treatment%20is%20complete.",
+        "display": true
     },
     {
         "name": "Mononucleosis",
         "symptoms": ["fatigue, ", "sore throat, ", "fever, ", "swollen lymph nodes, ", "skin rash, ", "headache "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/diagnosis-treatment/drc-20350333#:~:text=There's%20no%20specific%20therapy%20available,and%20drinking%20plenty%20of%20fluids."
+        "link": "https://www.mayoclinic.org/diseases-conditions/mononucleosis/diagnosis-treatment/drc-20350333#:~:text=There's%20no%20specific%20therapy%20available,and%20drinking%20plenty%20of%20fluids.",
+        "display": true
     },
     {
         "name": "Stomach Bug",
         "symptoms": ["diarrhea, ", "nausea, ", "vomiting, ", "fever, ", "stomach cramps and pain "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/viral-gastroenteritis/diagnosis-treatment/drc-20378852"
+        "link": "https://www.mayoclinic.org/diseases-conditions/viral-gastroenteritis/diagnosis-treatment/drc-20378852",
+        "display": true
     },
     {
         "name": "Strep Throat",
         "symptoms": ["pain swallowing, ", "swollen lymph nodes, ", "sore throat, ", "fever "],
-        "link": "https://www.cdc.gov/dotw/strepthroat/index.html#:~:text=Stay%20Home-,People%20with%20strep%20throat%20should%20stay%20home%20from%20work%2C%20school,spreading%20the%20bacteria%20to%20others.&text=Wash%20your%20hands%20often%20to,strep%20throat%20and%20other%20infections."
+        "link": "https://www.cdc.gov/dotw/strepthroat/index.html#:~:text=Stay%20Home-,People%20with%20strep%20throat%20should%20stay%20home%20from%20work%2C%20school,spreading%20the%20bacteria%20to%20others.&text=Wash%20your%20hands%20often%20to,strep%20throat%20and%20other%20infections.",
+        "display": true
     },
     {
         "name": "UTI",
         "symptoms": ["bloody urine, ", "frequent urination, ", "pain urinating "],
-        "link": "https://www.webmd.com/women/guide/your-guide-urinary-tract-infections"
+        "link": "https://www.webmd.com/women/guide/your-guide-urinary-tract-infections",
+        "display": true
     },
     {
         "name": "Food Poisoning",
         "symptoms": ["stomach cramps and pain, ", "fever, ", "nausea, ", "vomiting, ", "diarrhea "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/food-poisoning/diagnosis-treatment/drc-20356236"
+        "link": "https://www.mayoclinic.org/diseases-conditions/food-poisoning/diagnosis-treatment/drc-20356236",
+        "display": true
     },
     {
         "name": "Sinus Infection",
         "symptoms": ["runny nose, ", "sinus pressure, ", "headache, ", "sore throat, ", "congestion "],
-        "link": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
+        "link": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/",
+        "display": true
     },
     {
         "name": "Allergies",
         "symptoms": ["sneezing, ", "runny nose, ", "rashes, ", "watery eyes "],
-        "link": "https://www.mayoclinic.org/diseases-conditions/hay-fever/in-depth/seasonal-allergies/art-20048343"
+        "link": "https://www.mayoclinic.org/diseases-conditions/hay-fever/in-depth/seasonal-allergies/art-20048343",
+        "display": true
+    },
+    {
+        "name": "Upper Respiratory Infection",
+        "symptoms": ["sneezing, ", "cough, ", "runny nose, ", "headache, ", "sore throat, ",  "shortness of breath "],
+        "link": "https://my.clevelandclinic.org/health/articles/4022-upper-respiratory-infection",
+        "display": true
     }
     ]

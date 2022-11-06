@@ -9,7 +9,6 @@ const CardList = ({ flashcards }) => {
                 return <Card flashcard={flashcard}/>
             })}
         </div>
-
     )
 }
 
