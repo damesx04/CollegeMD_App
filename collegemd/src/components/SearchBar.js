@@ -1,39 +1,64 @@
-import React, { useState } from 'react';
-import './SearchBar.css';
+import React, { useState } from "react";
+import "./SearchBar.css";
 
-function SearchBar({placeholder, data}) {
+function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
-  
-  const handleFilter = (event) => {
-      const searchWord = event.target.value
-      const newFilter = data.filter((value) =>  {
-          return value.symptom.toLowerCase().includes(searchWord.toLowerCase());
-      });
+  const [wordEntered, setWordEntered] = useState("");
+  const [symptomChosen, setSymptomChosen] = useState("")
 
-      if (searchWord === "") {
-          setFilteredData([]);
-      } else {
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+    const newFilter = data.filter((value) => {
+      return value.symptom.toLowerCase().includes(searchWord.toLowerCase());
+    });
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
       setFilteredData(newFilter);
-      }
-  }
+    }
+  };
+
+  const clearInput = () => {
+    setFilteredData([]);
+    setWordEntered("");
+  };
+
+  const chosen = () => {
+    setSymptomChosen(filteredData);
+  };
+
   return (
-        <div className="search">
-            <div className='searchInputs'>
-                <input type='text' placeholder={placeholder} onChange={handleFilter}/>
-                <div className='searchIcon'></div>
+    <div className="symptoms" value={filteredData}>
+    <div className="search">
+      <div className="searchInputs">
+        <input
+          type="text"
+          placeholder={placeholder}
+          value={wordEntered}
+          onChange={handleFilter}
+        />
+        <div className="searchIcon">
+          {filteredData.length === 0 ? (
+            "🔍"
+          ) : (
+            <div id="clearBtn" onClick={clearInput}>
+              ❌
             </div>
-            {filteredData.length != 0 && (
-            <div className='dataResult'>
-                {filteredData.map((value, key) => {
-                    return (
-                        <div className='dataItem'> {value.symptom}</div>
-                    );
-                })}
-            </div>
-            )}
+          )}
         </div>
+      </div>
+      {filteredData.length != 0 && (
+        <div className="dataResult" onClick={chosen}>
+          {filteredData.map((value, key) => {
+            return <div className="dataItem"> {value.symptom}</div>;
+          })}
+        </div>
+      )}
+    </div>
+    </div>
   );
 }
-
 
 export default SearchBar;
