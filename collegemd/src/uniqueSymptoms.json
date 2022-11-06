@@ -1,0 +1,83 @@
+[
+    {
+        "symptom": "fever"
+    },
+    {
+        "symptom": "cough"
+    },
+    {
+        "symptom": "sore throat"
+    },
+    {
+        "symptom": "sinus pressure"
+    },
+    {
+        "symptom": "muscle aches"
+    },
+    {
+        "symptom": "headache"
+    },
+    {
+        "symptom": "fatigue"
+    },
+    {
+        "symptom": "nausea"
+    },
+    {
+        "symptom": "vomiting"
+    },
+    {
+        "symptom": "loss of taste/smell"
+    },
+    {
+        "symptom": "runny nose"
+    },
+    {
+        "symptom": "shortness of breath"
+    },
+    {
+        "symptom": "sneezing"
+    },
+    {
+        "symptom": "watery eyes"
+    },
+    {
+        "symptom": "visible inflamation"
+    },
+    {
+        "symptom": "discharge"
+    },
+    {
+        "symptom": "itching"
+    },
+    {
+        "symptom": "swollen nymph nodes"
+    },
+    {
+        "symptom": "skin rash"
+    },
+    {
+        "symptom": "diarrhea"
+    },
+    {
+        "symptom": "stomach cramps and pain"
+    },
+    {
+        "symptom": "pain swallowing"
+    },
+    {
+        "symptom": "bloody urine"
+    },
+    {
+        "symptom": "frequent urination"
+    },
+    {
+        "symptom": "pain urinating"
+    },
+    {
+        "symptom": "congestion"
+    },
+    {
+        "symptom": "rashes"
+    }
+]
