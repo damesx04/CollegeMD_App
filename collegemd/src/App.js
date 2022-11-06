@@ -6,10 +6,9 @@ import UniqueData from "./uniqueSymptoms.json";
 import Symptoms from "./components/Symptoms.js";
 import Card from "./components/Card.js";
 import CardList from "./components/CardList.js";
+import tempSymptoms from './tempSymptoms.json';
 
 let noRepeatSymptoms = new Set();
-
-
 
 for (let i = 0; i < SymptomData.length; i++) {
   for (let j = 0; j < SymptomData[i].symptoms.length; j++) {
@@ -37,6 +36,7 @@ function App() {
   );
 }
 
-export default App;
-
 const data = SymptomData
+
+
+export default App
